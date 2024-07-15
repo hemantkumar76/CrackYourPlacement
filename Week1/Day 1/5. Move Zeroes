@@ -1,0 +1,23 @@
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        vector<int>numbers; // Ek naya vector banate hain jisme non-zero elements ki indices store karenge
+
+        // Pehle loop mein, hum array ke har element pe jaate hain
+        for(int i=0;i<nums.size();i++){
+            // Agar element non-zero hai, toh uski index ko 'numbers' vector mein daal dete hain
+            if(nums[k]!=0) numbers.push_back(i);
+        }
+
+        // Dusre loop mein, hum 'numbers' vector ke har element pe jaate hain
+        for(int i=0;i<numbers.size();i++){
+            // Hum 'nums' array ke 'i' position pe 'numbers[i]' index wale element ko daal dete hain
+            nums[i]=nums[numbers[i]];
+        }
+
+        // Teesre loop mein, hum bache huye positions pe 0 daal dete hain
+        for(int i=numbers.size();i<nums.size();i++){
+            nums[i]=0;
+        }
+    }
+};
