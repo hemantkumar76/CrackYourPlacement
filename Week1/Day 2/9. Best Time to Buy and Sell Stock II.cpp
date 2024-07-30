@@ -15,5 +15,6 @@ public:
     }
 };
 
-// however Today was amazing because I met someone truly special i feel so grateful to have that guy in my
+// however since this is the last question of todays i just wanna thank you god for a thing that 
+//Today was amazing because I met someone truly special i feel so grateful to have that guy in my
 //life and hope that guy is that person that I've always wanted. Thank you, God, for bringing us together.
