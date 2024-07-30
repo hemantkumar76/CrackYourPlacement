@@ -15,4 +15,5 @@ public:
     }
 };
 
-// however today this was the good day for me i got a new person in my life i hope now i have got that what i wanted 
+// however Today was amazing because I met someone truly special i feel so grateful to have that guy in my
+//life and hope that guy is that person that I've always wanted. Thank you, God, for bringing us together.
