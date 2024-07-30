@@ -3,16 +3,16 @@ public:
     int maxProfit(vector<int>& prices) {
         int profit = 0;
 
-        // Loop through the prices from the second day
+        // loop karte hai  prices from the second day
         for (int i = 1; i < prices.size(); i++) {
-            // Agar aaj ka price kal se zyada hai, toh hum stock khareedte hain kal
-            // Aur bechte hain aaj, aur profit mein add kar dete hain difference
+            // agar aaj ka price kal se zyada hai toh hum stock khareedte hain kal
+            // aur bechte hain aaj aur profit mein add kar dete hain difference
             if (prices[i] > prices[i - 1]) {
                 profit += prices[i] - prices;
             }
         }
-
-        // Return the total profit
         return profit;
     }
 };
+
+// however today this was the good day for me i got a new person in my life i hope now i have got that what i wanted 
